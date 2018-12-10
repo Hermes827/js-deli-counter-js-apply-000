@@ -44,3 +44,20 @@ function currentLine(katzDeliLine) {
   }
   
 }
+
+
+
+var ticketNumber = 1
+
+
+function takeANumber(katzDeliLine){
+
+katzDeliLine.push(ticketNumber) 
+
+return "Welcome " + ticketNumber++
+  
+  
+}
+
+takeANumber(katzDelLine) // ໎ You' retiket number 1
+
